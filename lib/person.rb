@@ -4,6 +4,6 @@ class Person
   
   def initialize(hash)
     hash.each do |key, value|
-      self.send(())
+      self.send(("#{key}"))
   end
 end
